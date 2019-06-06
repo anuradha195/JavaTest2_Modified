@@ -19,6 +19,7 @@ public class Main_modified extends Application {
     public static void main(String[] args) {
         launch(args);
 	// write your code here
+        // write code here
     }
 
 	
@@ -34,6 +35,11 @@ public class Main_modified extends Application {
 		//create Menubar for the application
 		MenuBar menuBar = new MenuBar();
         // --- Menu Game
+        //create menu item for MenuBar
+
+
+
+
         
 		Menu menuGame = new Menu("Games");
         
