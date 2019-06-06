@@ -28,11 +28,10 @@ public class Main_modified extends Application {
 	
         window=primaryStage;
 
-
-
-        
+        // Set Title of the Stage...
 		primaryStage.setTitle("Lets Play a Game");
-        
+
+		//create Menubar for the application
 		MenuBar menuBar = new MenuBar();
         // --- Menu Game
         
