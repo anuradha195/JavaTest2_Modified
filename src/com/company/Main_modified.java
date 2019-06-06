@@ -8,31 +8,41 @@ import javafx.stage.Stage;
 
 import java.util.Scanner;
 
-public class Main extends Application {
+public class Main_modified extends Application {
     private Stage window;
     Scanner sc = new Scanner(System.in);
     int  count=0;
     double rand= Math.random();
     int random = (int) (rand*100);
     //int numberguessed = 0;
-
+	
     public static void main(String[] args) {
         launch(args);
 	// write your code here
     }
 
+	
     @Override
     public void start(Stage primaryStage) throws Exception {
 
+	
         window=primaryStage;
-        primaryStage.setTitle("Lets Play a Game");
-        MenuBar menuBar = new MenuBar();
+
+
+
+        
+		primaryStage.setTitle("Lets Play a Game");
+        
+		MenuBar menuBar = new MenuBar();
         // --- Menu Game
-        Menu menuGame = new Menu("Games");
-        MenuItem Numbergame=new MenuItem("Number Guessing game");
+        
+		Menu menuGame = new Menu("Games");
+        
+		MenuItem Numbergame=new MenuItem("Number Guessing game");
 
         Menu menuOtherOptions = new Menu("Other Options");
-        menuBar.getMenus().addAll(menuGame,menuOtherOptions);
+        
+		menuBar.getMenus().addAll(menuGame,menuOtherOptions);
 
         menuGame.getItems().addAll(Numbergame);
 
