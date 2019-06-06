@@ -37,16 +37,12 @@ public class Main_modified extends Application {
         // --- Menu Game
         //create menu item for MenuBar
 
-
-
-
-        
 		Menu menuGame = new Menu("Games");
-        
+        //
 		MenuItem Numbergame=new MenuItem("Number Guessing game");
 
         Menu menuOtherOptions = new Menu("Other Options");
-        
+        //
 		menuBar.getMenus().addAll(menuGame,menuOtherOptions);
 
         menuGame.getItems().addAll(Numbergame);
